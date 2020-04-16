@@ -1413,8 +1413,8 @@ RectTransform:
   m_Father: {fileID: 52895422}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.9072832}
-  m_AnchorMax: {x: 1, y: 0.9999998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4508,8 +4508,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 364784167}
   m_HandleRect: {fileID: 364784166}
   m_Direction: 2
-  m_Value: 0.99999994
-  m_Size: 0.092716664
+  m_Value: 0.9999998
+  m_Size: 0.09271666
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4749,9 +4749,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Iniciar
-
-'
+  m_Text: Iniciar
 --- !u!222 &1807714285
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5308,7 +5306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2029515956
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5383,7 +5381,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2044180583
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5553,12 +5551,12 @@ PrefabInstance:
     - target: {fileID: 5148463439782493423, guid: a44b89d1581085b49a7e06bb20a0fd00,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -67.86128
+      value: -583
       objectReference: {fileID: 0}
     - target: {fileID: 5148463439782493423, guid: a44b89d1581085b49a7e06bb20a0fd00,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.703602
+      value: 332
       objectReference: {fileID: 0}
     - target: {fileID: 5148463439782493423, guid: a44b89d1581085b49a7e06bb20a0fd00,
         type: 3}

@@ -1,0 +1,7 @@
+Sala: sdfgsdfg
+Servidor: cae
+Duración: 10 minutos.
+Jugadores:
+	julio
+Plan de elaboración:
+	Ninguno.
