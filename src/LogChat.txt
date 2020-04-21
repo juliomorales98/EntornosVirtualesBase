@@ -1,7 +1,7 @@
-Sala: sdfgsdfg
+Sala: 1
 Servidor: cae
 Duración: 10 minutos.
 Jugadores:
-	julio
+	unity
 Plan de elaboración:
 	Ninguno.

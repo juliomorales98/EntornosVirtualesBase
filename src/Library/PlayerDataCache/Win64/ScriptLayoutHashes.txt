@@ -229,6 +229,7 @@ a8a4fba96bef6fccf7bb4be2f06c16b6 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 35a9693c388776aaf487636491a20f11 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 71bb6a6b6c8f052f948db64c7dd3ca4f PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Procedural.Cluster
 e1300922cc039f41ab46a47f4cb05898 Unity.TextMeshPro.dll:TMPro.TMP_Settings
+36f3c81ad95b6cfb2ec515d8b586be39 Assembly-CSharp.dll:.SelectCharacter
 11bdd61587db747672b66c52442395d8 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.AppVersionProperty
 88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.BeforeAfterTestCommandState
 88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
@@ -267,6 +268,7 @@ a8a4fba96bef6fccf7bb4be2f06c16b6 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 48804c7edfd2998cdab1bf456d8dbfd0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.PlayerListView
 71bb6a6b6c8f052f948db64c7dd3ca4f PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Procedural.ProceduralController
+36ca79502df79073a6506ca0585965fc Assembly-CSharp.dll:.IsSelected
 c5fd97cc10b89deaf7c60af66a6b0d5a PhotonRealtime.dll:Photon.Realtime.SupportLogger
 3f600ad0f750f59238a91f7513b927c1 PhotonUnityNetworking.dll:Photon.Pun.PhotonTransformViewClassic
 71bb6a6b6c8f052f948db64c7dd3ca4f PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CrcCheckToggle
@@ -308,5 +310,3 @@ c8283c7732e3b6aa70d28f1fed4430ca PhotonUnityNetworking.Utilities.dll:Photon.Pun.
 c656dcc13ae391b68d594cc8f9c590b0 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Cockpit.CountOfRoomsProperty
 f0c4eb24258257daca58a9939f0894d2 PhotonUnityNetworking.Demos.dll:Photon.Pun.Demo.Asteroids.LobbyTopPanel
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Chat
-36f3c81ad95b6cfb2ec515d8b586be39 Assembly-CSharp.dll:.SelectCharacter
-36ca79502df79073a6506ca0585965fc Assembly-CSharp.dll:.IsSelected

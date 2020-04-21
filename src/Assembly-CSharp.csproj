@@ -77,6 +77,10 @@
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
     <Compile Include="Assets\Scripts\CharacterSelection\IsSelected.cs" />
     <Compile Include="Assets\Scripts\CharacterSelection\SelectCharacter.cs" />
+    <Compile Include="Assets\Scripts\Experimento\ControlBasico.cs" />
+    <Compile Include="Assets\Scripts\Experimento\ExperimentoController.cs" />
+    <Compile Include="Assets\Scripts\Experimento\ExperimentoSetup.cs" />
+    <Compile Include="Assets\Scripts\Experimento\PhotonPlayer.cs" />
     <Compile Include="Assets\Scripts\MainMenu\Chat.cs" />
     <Compile Include="Assets\Scripts\MainMenu\IOConfig.cs" />
     <Compile Include="Assets\Scripts\MainMenu\LobbyController.cs" />
