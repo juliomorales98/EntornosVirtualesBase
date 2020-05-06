@@ -33,7 +33,7 @@ public class IsSelected : MonoBehaviour, IPunObservable
 
 	void Update()
 	{
-		if (isSelected)
+		if (isSelected && !myPV.IsMine)
 		{
 
 			networkGlow.GetComponent<Renderer>().enabled = true;
