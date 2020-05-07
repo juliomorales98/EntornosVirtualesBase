@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Experimento\ControlBasico.cs" />
     <Compile Include="Assets\Scripts\Experimento\ExperimentoController.cs" />
     <Compile Include="Assets\Scripts\Experimento\ExperimentoSetup.cs" />
+    <Compile Include="Assets\Scripts\Experimento\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Experimento\PhotonPlayer.cs" />
     <Compile Include="Assets\Scripts\MainMenu\Chat.cs" />
     <Compile Include="Assets\Scripts\MainMenu\IOConfig.cs" />

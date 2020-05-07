@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3395438403818472625}
   - component: {fileID: 1141110530332181028}
   - component: {fileID: 1623989435609623525}
+  - component: {fileID: 7770607368353063244}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -105,6 +106,27 @@ MonoBehaviour:
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &7770607368353063244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4263666917055105366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208d43ef8190d9f4baad78d698ce418c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 2
+  sensitivityX: 2
+  sensitivityY: 2
+  minimumX: -360
+  maximumX: 360
+  minimumY: -60
+  maximumY: 60
+  rotationX: 0
+  rotationY: 0
 --- !u!1 &4578393257424021559
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,9 +291,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 159eced33a2f9f2429f67cd58192c57b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axes: 0
-  sensitivityX: 15
-  sensitivityY: 15
+  axes: 1
+  sensitivityX: 2
+  sensitivityY: 2
   minimumX: -360
   maximumX: 360
   minimumY: -60

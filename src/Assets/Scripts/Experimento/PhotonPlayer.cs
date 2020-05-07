@@ -41,7 +41,7 @@ public class PhotonPlayer : MonoBehaviour
 					personaje = "Character3";
 					break;
 				case 4:
-					personaje = "Character 4";
+					personaje = "Character4";
 					break;
 			}
 			PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", personaje),

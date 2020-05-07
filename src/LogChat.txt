@@ -3,6 +3,5 @@ Servidor: cae
 Duración: 10 minutos.
 Jugadores:
 	unity
-	julio
 Plan de elaboración:
 	Ninguno.
