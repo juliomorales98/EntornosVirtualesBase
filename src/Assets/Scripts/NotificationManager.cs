@@ -71,6 +71,7 @@ public class NotificationManager : MonoBehaviour
 		//Hacemos que vaya desapareciendo poco a poco
 		notificationCoroutine = FadeOutNotification(message);
 		StartCoroutine(notificationCoroutine);
+		
 	}
 
 	private IEnumerator FadeOutNotification(string message)

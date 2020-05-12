@@ -14,7 +14,7 @@ public class ExperimentoSetup : MonoBehaviour
 	public Transform[] spawnPoints;
 	[SerializeField] private Text playerName;
 	[SerializeField] private Text characterName;
-	private void OnEnable()
+	void OnEnable()
 	{
 		if (ExperimentoSetup.GS == null)
 		{
@@ -26,13 +26,15 @@ public class ExperimentoSetup : MonoBehaviour
 		//PhotonNetwork.AutomaticallySyncScene = true;//activamos de nuevo la sincronización de escenas.
 		Debug.Log("Entró a game setup");
 		playerName.text = PhotonNetwork.LocalPlayer.NickName.ToString();
-		characterName.text = "Pirata " + SelectCharacter.SC.characterSelected.ToString();
-		CreatePlayer();
+		characterName.text = "Avatar " + SelectCharacter.SC.characterSelected.ToString();
 		Debug.Log("Se seleccionó " + SelectCharacter.SC.characterSelected.ToString());
+		CreatePlayer();
+
+
 	}
 	private void CreatePlayer()
 	{
 		PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PhotonNetworkPlayer"), new Vector3(-1.3f, 6.4f, 9.8f), Quaternion.identity);
-
+		
 	}
 }

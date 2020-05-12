@@ -26,6 +26,7 @@ public class PhotonPlayer : MonoBehaviour
 	{
 		PV = GetComponent<PhotonView>();
 		int spawnPicker = Random.Range(0, ExperimentoSetup.GS.spawnPoints.Length);
+		Debug.Log("Spawn: " + spawnPicker.ToString());
 		if (PV.IsMine)
 		{
 			string personaje = "";
